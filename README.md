@@ -1,7 +1,7 @@
 # nativedemo
 ## for self study.
 
-### step1. generate header files.
+### generate header files.
 * how to generate headers.
 ```bat
 % cd $(project-root)
@@ -13,3 +13,13 @@
 % cd nativedemo
 % javah -cp build/classes sato.nativedemo.primitive.PrimitiveSample
 ```
+### execute
+* execute
+```bat
+% java -Djava.library.path=./dll/ [class]
+```
+* example
+```bat
+% java -Djava.library.path=./dll/ sato.nativedemo.PrimitiveArraySampleMain
+```
+
