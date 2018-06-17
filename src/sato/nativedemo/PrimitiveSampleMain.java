@@ -2,7 +2,7 @@ package sato.nativedemo;
 
 import sato.nativedemo.primitive.PrimitiveSample;
 
-public class Main {
+public class PrimitiveSampleMain {
 
 	static {
 		System.loadLibrary("primitiveDLL");

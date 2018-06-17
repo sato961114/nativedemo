@@ -5,7 +5,7 @@
 * how to generate headers.
 ```bat
 % cd $(project-root)
-% javah -cp [class path] [class name]
+% javah -cp $(class-path) $(class-name)
 ```
 
 * example
