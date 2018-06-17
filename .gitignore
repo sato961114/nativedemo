@@ -12,7 +12,7 @@
 *.rar
 
 /build/
+/dll/
 *.project
 *.classpath
 *.settings
-*.dll
